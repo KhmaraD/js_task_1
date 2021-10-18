@@ -79,7 +79,7 @@ const clearInputs = () => {
 const createNewNote = () => {
     data.push({
         'id': `${Date.now()}`,
-        'image': 'images/cart_shopping.png',
+        'image': 'images/brain.png',
         'name': noteName.value,
         'created': dateNow,
         'category': noteCategory.value,
